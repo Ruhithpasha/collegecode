@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en-US">   <head>
+    <!-- # block head (placeholder in theme.html) -->
+        <!-- # block head (content inherited from layout.html) -->
+    <title>
+      Linux_Downloads     – Oracle VirtualBox
+
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE]><script>
+        if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+        </script><![endif]-->
+
+    <link rel="search"  href="/search" />
+    <link rel="help"  href="/wiki/TracGuide" />
+    <link rel="alternate"  href="/wiki/Linux_Downloads?format=txt" title="Plain Text" type="text/x-trac-wiki" />
+    <link rel="start"  href="/wiki" />
+    <link rel="stylesheet"  href="/chrome/common/css/trac.css" type="text/css" />
+    <link rel="stylesheet"  href="/chrome/common/css/wiki.css" type="text/css" />
+    <link rel="icon"  href="/favicon.ico" type="image/x-icon" />
+    <noscript>
+      <style>
+        .trac-noscript { display: none !important }
+      </style>     </noscript>
+    <link type="application/opensearchdescription+xml" rel="search"
+          href="/search/opensearch"
+          title="Search Oracle VirtualBox"/>
+    <script src="/chrome/common/js/jquery.js"></script>
+    <script src="/chrome/common/js/jquery-migrate.js"></script>
+    <script src="/chrome/common/js/babel.js"></script>
+    <script src="/chrome/common/js/trac.js"></script>
+    <script src="/chrome/common/js/search.js"></script>
+    <script src="/chrome/common/js/folding.js"></script>
+    <script src="/chrome/common/js/wiki.js"></script>
+    <script>
+      jQuery(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        if ($.ui) { /* is jquery-ui added? */
+          $(".trac-datepicker:not([readonly])")
+            .prop("autocomplete", "off").datepicker();
+          // Input current date when today is pressed.
+          var _goToToday = $.datepicker._gotoToday;
+          $.datepicker._gotoToday = function(id) {
+            _goToToday.call(this, id);
+            this._selectDate(id)
+          };
+          $(".trac-datetimepicker:not([readonly])")
+            .prop("autocomplete", "off").datetimepicker();
+          $("#main").addClass("trac-nodatetimehint");
+        }
+        $(".trac-disable").disableSubmit(".trac-disable-determinant");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+    <!--   # include 'site_head.html' (layout.html) -->
+
+<link rel="stylesheet" type="text/css" href="/chrome/site/style.css"/>
+
+<script>
+  jQuery(function($) {
+    var $ntg = $("#newticketguide");
+    if ($ntg.length)
+      $("#propertyform").prepend($ntg.detach());
+  });
+
+</script>
+
+<script>
+  jQuery(function($) {
+        var $content = $("#content");
+        var $opener = $("#opener");
+        if ($("#opener").length) $content.toggleClass('narrow');
+  });
+</script>    <!--   end of site_head.html -->
+    <!-- # endblock head (content inherited from layout.html) -->
+
+
+    <script>
+      jQuery(function($) {
+        wikiColumn($("#wikipage"));
+      });
+    </script>
+    <!-- # endblock head (placeholder in theme.html) -->
+  </head> 
+  <body>
+    <!-- # block body (content inherited from theme.html) -->
+    <!--   # include 'site_header.html' (theme.html) -->
+
+  <!-- Add site-specific header -->
+  <div id="vboxstring">
+    <img src="/graphics/vboxlogodown.png" alt="VirtualBox"/>
+  </div>
+
+  <div id="center">    <!--   end of site_header.html -->
+
+    <div id="banner">
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18"
+                  value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+    </div>
+        <div id="mainnav" class="nav">
+    </div>
+
+
+    <div id="main"
+         >
+
+<div id="pagepath" class="noprint">
+<a class="pathentry first" title="View WikiStart"
+   href="/wiki">wiki:</a><a href="/wiki/Linux_Downloads"
+     title="View Linux_Downloads"
+     class="pathentry">Linux_Downloads</a></div>      <div id="ctxtnav">
+        <li>
+          <a id="logo" href="https://www.virtualbox.org/"><img alt="Oracle VirtualBox" src="/graphics/vbox-new-logo.png"></a>
+        </li>
+        <ul>
+          <li><a href="https://www.virtualbox.org/">Home</a></li>
+          <li><a href="/wiki/Downloads">Download</a></li>
+          <li><a href="/wiki/Documentation">Documentation</a></li>
+          <li><a href="/wiki/Community">Community</a></li>
+          <li class="first">
+            <a id="profile" href="/login"><img src="/graphics/user.png" alt="User profile icon"></a>
+          </li>
+            <form style="text-align: right" action="/search" method="get">
+              <div>
+                <input id="vboxsearch" type="text" name="q" size="10" accesskey="f" value="Search:" onblur="if(this.value=='') this.value='Search:';" onfocus="if(this.value=='Search:') this.value='';">
+                <input type="hidden" name="wiki" value="on">
+                <input type="hidden" name="changeset" value="on">
+                <input type="hidden" name="ticket" value="on">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+
+      
+
+      
+
+      <!-- # block content (placeholder in theme.html) -->
+    <div id="content" class="wiki narrow">
+
+      <div class="wikipage searchable">
+        <div id="wikipage" class="trac-content borderless"><h1 class="section" id="DownloadVirtualBoxforLinuxHosts">Download VirtualBox for Linux Hosts</h1>
+<p>
+<strong>Note:</strong> The package architecture has to match the Linux kernel architecture, that is, if you are running a 64-bit kernel, install the appropriate AMD64 package (it does not matter if you have an Intel or an AMD CPU). Mixed installations (e.g. Debian/Lenny ships an AMD64 kernel with 32-bit packages) are not supported. To install VirtualBox anyway you need to setup a 64-bit chroot environment.
+</p>
+<p>
+The VirtualBox base package binaries are released under the terms of the <a class="wiki" href="/wiki/GPLv3">GPL version 3</a>.
+</p>
+<p>
+Please choose the appropriate package for your Linux distribution.
+ <p><span>VirtualBox 7.1.8 for Linux</span></p>
+<ul><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1-7.1.8_168469_el9-1.x86_64.rpm"><span class="icon">​</span>Oracle Linux 9 / Red Hat Enterprise Linux 9</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1-7.1.8_168469_el8-1.x86_64.rpm"><span class="icon">​</span>Oracle Linux 8 / Red Hat Enterprise Linux 8</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~oracular_amd64.deb"><span class="icon">​</span>Ubuntu 24.10</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~noble_amd64.deb"><span class="icon">​</span>Ubuntu 24.04</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb"><span class="icon">​</span>Ubuntu 22.04</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~focal_amd64.deb"><span class="icon">​</span>Ubuntu 20.04</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Debian~bookworm_amd64.deb"><span class="icon">​</span>Debian 12</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Debian~bullseye_amd64.deb"><span class="icon">​</span>Debian 11</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1-7.1.8_168469_openSUSE153-1.x86_64.rpm"><span class="icon">​</span>openSUSE 15.3 / 15.4 / 15.5 / 15.6</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1-7.1.8_168469_fedora40-1.x86_64.rpm"><span class="icon">​</span>Fedora 40 / 41</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1-7.1.8_168469_fedora36-1.x86_64.rpm"><span class="icon">​</span>Fedora 36 / 37 / 38 / 39</a>
+</li><li><a class="ext-link" href="https://download.virtualbox.org/virtualbox/7.1.8/VirtualBox-7.1.8-168469-Linux_amd64.run"><span class="icon">​</span>All distributions</a> (built on EL7 and therefore not requiring recent system libraries)
+</li></ul>
+</p>
+<p>
+You might want to compare the checksums to verify the integrity of downloaded packages.
+<em>The SHA256 checksums should be favored as the MD5 algorithm must be treated as insecure! </em>
+<p>
+<a href="/download/hashes/7.1.8/SHA256SUMS">SHA256 checksums</a> <a href="/download/hashes/7.1.8/MD5SUMS">MD5 checksums</a>
+</p>
+
+</p>
+<h3 class="section" id="OracleLinux">Oracle Linux</h3>
+<p>
+Users of Oracle Linux 7, 8 and 9 can use the Oracle Linux yum <a class="ext-link" href="http://yum.oracle.com/"><span class="icon">​</span>repository</a> and enable the <a class="ext-link" href="http://yum.oracle.com/repo/OracleLinux/OL7/developer/x86_64/index.html"><span class="icon">​</span>ol7_developer</a> channel for Oracle Linux 7, the <a class="ext-link" href="http://yum.oracle.com/repo/OracleLinux/OL8/developer/x86_64/index.html"><span class="icon">​</span>ol8_developer</a> channel for Oracle Linux 8, or the <a class="ext-link" href="http://yum.oracle.com/repo/OracleLinux/OL9/developer/x86_64/index.html"><span class="icon">​</span>ol9_developer</a> channel for Oracle Linux 9. 
+</p>
+<p>
+This can be done with
+</p>
+<pre class="wiki">yum install oraclelinux-developer-release-*
+</pre><p>
+After that, do
+</p>
+<pre class="wiki">yum install VirtualBox-7.0
+</pre><p>
+to get the latest maintenance release of VirtualBox 7.0.x installed.
+</p>
+<h3 class="section" id="Debian-basedLinuxdistributions">Debian-based Linux distributions</h3>
+<p>
+Add the following line to your <code>/etc/apt/sources.list</code>. For Debian 11 and older, replace '<code>&lt;mydist&gt;</code>' with '<code>bullseye</code>', '<code>buster</code>', or '<code>stretch</code>'. For Ubuntu 22.04 and older, 'replace '<code>&lt;mydist&gt;</code>' with '<code>jammy</code>', '<code>eoan</code>', '<code>bionic</code>', '<code>xenial</code>', 
+</p>
+<pre class="wiki">deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian &lt;mydist&gt; contrib
+</pre><p>
+The Oracle public key for verifying the signatures can be downloaded <a href="https://www.virtualbox.org/download/oracle_vbox_2016.asc">here</a>. You can add these keys with
+</p>
+<pre class="wiki">sudo gpg --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg --dearmor oracle_vbox_2016.asc
+</pre><p>
+or combine downloading and registering:
+</p>
+<pre class="wiki">wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg --dearmor
+</pre><p>
+The key fingerprint for oracle_vbox_2016.asc is
+</p>
+<pre class="wiki">B9F8 D658 297A F3EF C18D  5CDF A2F6 83C5 2980 AECF
+Oracle Corporation (VirtualBox archive signing key) &lt;info@virtualbox.org&gt;
+</pre><p>
+To install VirtualBox, do
+</p>
+<pre class="wiki">sudo apt-get update
+sudo apt-get install virtualbox-7.1
+</pre><p>
+Replace <code>virtualbox-7.1</code> by <code>virtualbox-7.0</code> to install the latest VirtualBox 7.0 build.
+</p>
+<p>
+What to do when experiencing <strong>The following signatures were invalid: BADSIG ...</strong> when refreshing the packages from the repository?
+</p>
+<pre class="wiki"># sudo -s -H
+# apt-get clean
+# rm /var/lib/apt/lists/*
+# rm /var/lib/apt/lists/partial/*
+# apt-get clean
+# apt-get update
+</pre><p>
+If you previously added the Oracle key(s) to your default keyring (now considered insecure), remove them again with:
+</p>
+<pre class="wiki">sudo apt-key remove 5CDFA2F683C52980AECF
+sudo apt-key remove D9C954422A4B98AB5139
+</pre><p>
+<em>(As of VirtualBox 3.2, the signing key was changed. The old Sun public key for apt-secure can be downloaded <a class="ext-link" href="https://download.virtualbox.org/virtualbox/debian/sun_vbox.asc"><span class="icon">​</span>here</a>. Likewise, the Oracle public key for distributions older than Debian 8 and Ubuntu 16.04 can be downloaded <a href="https://www.virtualbox.org/download/oracle_vbox.asc">here</a>.)</em>
+</p>
+<h3 class="section" id="RPM-basedLinuxdistributions">RPM-based Linux distributions</h3>
+<p>
+We provide a yum/dnf-style repository for Oracle Linux/Fedora/RHEL/openSUSE. All .rpm packages are signed. The Oracle public key for rpm can be downloaded <a href="https://www.virtualbox.org/download/oracle_vbox_2016.asc">here</a>. You can add this key <em>(not normally necessary, see below!)</em> with
+</p>
+<pre class="wiki">sudo rpm --import oracle_vbox_2016.asc
+</pre><p>
+or combine downloading and registering:
+</p>
+<pre class="wiki">wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | rpm --import -
+</pre><p>
+The key fingerprint is
+</p>
+<pre class="wiki">B9F8 D658 297A F3EF C18D  5CDF A2F6 83C5 2980 AECF
+Oracle Corporation (VirtualBox archive signing key) &lt;info@virtualbox.org&gt;
+</pre><p>
+After importing the public key, the package signature can be checked with
+</p>
+<pre class="wiki">rpm --checksig PACKAGE_NAME
+</pre><p>
+<em>Note that importing the key is not necessary for yum users (Oracle Linux/Fedora/RHEL/CentOS) when using one of the virtualbox.repo files from below as yum downloads and imports the public key automatically! Zypper users should run
+</em></p>
+<pre class="wiki">zypper refresh
+</pre><p>
+<em>
+</em></p>
+<p>
+<em>(As of VirtualBox 6.1.44/7.0.8, the same signing key as for Debian packages since 2016 is used. The Oracle public key for older rpm packages and not updated repositories can be downloaded <a href="https://www.virtualbox.org/download/oracle_vbox.asc">here</a>.)</em>
+</p>
+<p>
+The package signature is checked by yum/dnf/zypper as well:
+</p>
+<ul><li>Users of <strong>Oracle Linux</strong> / <strong>RHEL</strong> can add <a class="ext-link" href="https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo"><span class="icon">​</span>the Oracle Linux repo file</a> to <em>/etc/yum.repos.d/</em>.
+</li><li>Users of <strong>Fedora</strong> can add <a class="ext-link" href="https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo"><span class="icon">​</span>the Fedora repo file</a> to <em>/etc/yum.repos.d/</em>.
+</li><li>Users of <strong>openSUSE</strong> can add <a class="ext-link" href="https://download.virtualbox.org/virtualbox/rpm/opensuse/virtualbox.repo"><span class="icon">​</span>the openSUSE repo file</a> to <em>/etc/zypp/repos.d/</em>.
+</li></ul></div>
+        <div class="trac-modifiedby">
+          <span>
+            <a href="/wiki/Linux_Downloads?action=diff&amp;version=385" title="Version 385 by Klaus Espenlaub: refresh for 7.1 (with some 7.0 bit because the yum.oracle.com repo isn&#39;t decided)">Last modified</a>
+ <a class="timeline" href="/timeline?from=2024-10-25T19%3A54%3A03Z&amp;precision=second" title="See timeline at Oct 25, 2024 7:54:03 PM">7 months ago</a>          </span>
+          <span class="trac-print">
+            Last modified on Oct 25, 2024 7:54:03 PM
+          </span>
+        </div>
+      </div>
+
+
+
+
+
+<div class="trac-help">
+  <strong>Note:</strong>
+ See   <a href="/wiki/TracWiki">TracWiki</a>
+ for help on using the wiki.
+</div>
+    </div>
+        <!-- # block content (content inherited from layout.html) -->
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/Linux_Downloads?format=txt"
+              class="">
+            Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    <!-- # endblock content (content inherited from layout.html) -->
+
+      <!-- # endblock content (placeholder in theme.html) -->
+    </div>
+
+    <div id="footer"><hr/>
+      <a id="tracpowered" href="https://trac.edgewall.org/"
+         ><img src="/chrome/common/trac_logo_mini.png" height="30"
+               width="107" alt="Trac Powered"/></a>
+      <p class="left">
+Powered by         <a href="/about"><strong>Trac 1.4.3.2</strong></a>
+        <br />
+ By         <a href="http://www.edgewall.org/">Edgewall Software</a>
+.      </p>
+      <p class="right"></p>
+    </div>
+    <!--   # include 'site_footer.html' (theme.html) -->
+
+</div><!-- center -->
+<div id="vboxfooter">
+  <p style="text-align:center">
+    <a href="https://www.oracle.com"><span style="background-image: url(/graphics/oracle-logo-new.svg); width: 100px; height: 24px; background-repeat: no-repeat; background-position: 0 11px; background-size: 100% 100%; display: inline-block"></span> &copy; 2025 Oracle</a>
+    <a href="https://www.oracle.com/virtualization/virtualbox/#rc30category-support-services">Support</a>
+    <a href="https://www.oracle.com/html/privacy.html">Privacy </a>
+    /
+    <a href="https://www.oracle.com/legal/privacy/privacy-choices.html"> Do Not Sell My Info</a>
+    <a href="https://www.oracle.com/html/terms.html">Terms of Use</a>
+    <a href="https://www.oracle.com/legal/trademarks.html">Trademark Policy</a>
+    <a href="/wiki/AutomatedAccessEtiquette">Automated Access Etiquette</a>
+  </p>
+</div>
+
+    <!--   end of site_footer.html -->
+    <!-- # endblock body (content inherited from theme.html) -->
+  </body> </html>
