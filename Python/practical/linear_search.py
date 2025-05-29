@@ -1,10 +1,24 @@
+# 3. Create a python program to implement linear search on array.
+
 def linear_search(arr, target):
-    for i in range(len(arr)):
-        if arr[i] == target:
-         return i
+    for index in range(len(arr)):
+        if arr[index] == target:
+            return index
     return -1
 
-arr=[2,3,1,6,4,5]
-target = 6
-index = linear_search(arr,target)
-print("linear search", index)
+# Example usage
+if __name__ == "__main__":
+    # Sample array
+    arr = [10, 25, 30, 45, 50, 60]
+    
+    # Input from user
+    target = int(input("Enter the element to search: "))
+    
+    # Perform search
+    result = linear_search(arr, target)
+    
+    # Output result
+    if result != -1:
+        print(f"Element found at index {result}")
+    else:
+        print("Element not found in the array")
